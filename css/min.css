@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: LilitaOne-Regular;
+    src: url(/asset/font/Lilita_One/LilitaOne-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-extraBold;
+    src: url(/asset/font/Montserrat/static/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Montserrat-Italic;
+    src: url(/asset/font/Montserrat/static/Montserrat-Italic.ttf);
+}
+:root{
+    --color-main:#33dfdf;
+}
+
