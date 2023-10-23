@@ -4,6 +4,7 @@ ví dụ nền cần dùng màu chủ đạo thì cú pháp
 background-color : var(--color-main);
 như vầy là được
 
-2. hình ảnh, icon theo btaskee thì tui có gửi video hướng dẫn lấy, mn xem rồi lưu đúng thư mục ** chỉ cần lưu hình và icon phần mình làm và nên tạo riêng thư mục ảnh của mình **
+2. hình ảnh, icon theo btaskee thì tui có gửi video hướng dẫn lấy, mn xem rồi lưu đúng thư mục ** 
+chỉ cần lưu hình và icon phần mình làm và nên tạo riêng thư mục ảnh của mình **
 
 3. phần nội dung hiển thị sẽ rộng 1280px

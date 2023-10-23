@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 @font-face {
     font-family: LilitaOne-Regular;
@@ -18,4 +17,52 @@
 :root{
     --color-main:#33dfdf;
 }
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.wrapper{ 
+    padding: 10px;
+    /* width: 1280px; */
+}
+#main_title{
+    font-family: Montserrat-extraBold;
+    font-size: 50px;
+    margin:  40px 0 40px 0;
+    text-align: justify;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr); /*Chia mỗi dòng thành 12fr*/
+}
+.grid-item {
+    grid-column: span 4; /*Mỗi cục chiếm 4fr*/
+    width: 355px;
+    height: 321px;
+    margin: 10px;
+    padding: 0px;
+    background-color: #f1f1f1;
+}
+.container .grid-item:hover {
+    box-shadow: 0 0 10px 10px #c5c3c3;
+    transition: all .30s;
+}
+.wrapper .container-title {
+    font-family: Montserrat-extraBold;
+    font-size: 20px;
+    margin: 40px 0  0;
+    padding: 0 30px;
+    text-align: justify;
+}
 
+.container-time {
+    /* border: 1px solid green; */
+    font-family: Montserrat-Italic;
+    font-size: smaller;
+    margin: 40px 0 0 0;
+    padding: 8px 30px 0 30px;
+    text-align: justify;
+    border-top: 3px solid white;
+    
+}
